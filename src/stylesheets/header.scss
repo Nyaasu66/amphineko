@@ -56,3 +56,11 @@
 .section.header .picture-container {
     padding: 2em;
 }
+
+.header .picture:hover {
+    transform: scale(1.05);
+}
+
+.header .picture {
+    transition: transform .2s;
+}
